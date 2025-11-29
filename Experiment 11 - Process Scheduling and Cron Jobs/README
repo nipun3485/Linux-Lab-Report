@@ -1,0 +1,58 @@
+# Experiment 11 – Shell Programming (User Interaction and Database)
+
+## Objective
+To learn how shell scripts take input from users, split sentences into words, modify the Internal Field Separator (IFS), and perform text validation like palindrome checking.
+
+---
+
+## Task 1 – Split a Sentence into Words
+
+### Script: split_words.sh
+This script:
+- Takes a full sentence as input
+- Automatically splits words using default IFS
+- Prints each word on a new line
+
+### Command to Run
+./split_words.sh
+
+---
+
+## Task 2 – Split Words Using Custom IFS (Space Only)
+
+### Script: split_words_custom.sh
+This script:
+- Saves original IFS
+- Sets IFS to a single space
+- Splits and prints words accordingly
+- Restores original IFS
+
+### Command to Run
+./split_words_custom.sh
+
+---
+
+## Task 3 – Palindrome Check
+
+### Script: palindrome.sh
+This script:
+- Reads a string input
+- Reverses it using `rev`
+- Compares original and reversed strings
+- Outputs whether it is a palindrome
+
+### Command to Run
+./palindrome.sh
+
+---
+
+## Output
+Add your screenshots in this folder with names like:
+- output11_1.png
+- output11_2.png
+- output11_3.png
+
+---
+
+## Conclusion
+This experiment demonstrated user interaction, word processing, IFS manipulation, and string validation in shell scripting. Each script highlights fundamental text-processing concepts used in Linux automation.
