@@ -22,7 +22,7 @@ medical_expert.sh
 fever, cough, headache
 
 ### Output Screenshot
-Add your screenshot here.
+![Medical Expert System Output](medical_expert.png)
 
 ### Conclusion
 Implemented a simple rule-based expert system using conditional checks and string processing in shell scripting.
@@ -76,7 +76,7 @@ tmux attach-session -t session_name
 - Re-attach to an existing session  
 
 ### Screenshot
-Add your tmux command screenshot here.
+
 
 ### Conclusion
 This part demonstrated basic `tmux` operations, enabling efficient multitasking and background process management in Linux.
